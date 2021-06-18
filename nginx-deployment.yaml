@@ -42,7 +42,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: longhorn
+#  storageClassName: longhorn     # Disabled to allow for deployment based on the default storage class
   resources:
     requests:
       storage: 40Gi
